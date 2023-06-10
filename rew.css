@@ -1,0 +1,92 @@
+h1{
+    background-color: rgb(0, 255, 26);
+    font-size: 33px;
+}
+body{
+    background-color: rgb(189, 241, 224);
+}
+h2{
+    font-size:33px;
+}
+
+button{
+    text-align:center;
+    font-size: xx-large;
+}
+button:hover{
+    color:rgb(194, 252, 86);
+    cursor:pointer;
+    background-color: black;
+}
+marquee{
+    font-size: 34px;
+    background-color: rgb(174, 230, 35);
+    text-shadow: 5px 10px 15px;
+    height:44px;
+
+}
+form:hover{
+    color:red;
+    background-color: rgb(167, 131, 235);
+    border:4px greenyellow;
+    padding:3px;
+    background-image: url(demo-image.jpg) ;
+    background-size:cover;
+}
+ol{
+    font-size:22px;
+}
+ul{
+    font-size:17px;
+}
+form div{
+    border: 4px solid black;
+    text-align:center;
+    margin:42px;
+    padding:42px;
+}
+.pr{
+    color:rgb(246, 7, 3)
+}
+.prp{
+    background-color: rgba(217, 17, 17, 0.294);
+}
+nav ul{
+    display:flex;
+    justify-content: flex-start;
+    background-color: rgba(151, 174, 144, 0.973);
+}
+nav ul li{
+    
+    color:solid rgb(50, 8, 236);
+    font-size: xx-large;
+    margin:1px;
+    padding: 24px;
+    
+} 
+nav ul :hover{
+    color:darkblue;
+    font-weight: bold;
+}
+.box{
+    width:20px;
+    height:30px;
+    background-color: rgb(124, 153, 206);
+    animation-name:anime;
+            animation-duration: 10s;
+            animation-delay:3s;
+            animation-iteration-count:infinite;
+            animation-direction:reverse;
+            animation-timing-function: ease-in-out;
+    
+}
+@keyframes anime{
+    from{
+        width:50px;
+        height:52px;
+    }
+    to{
+        width:600px;
+        height:600px;
+    }
+}
